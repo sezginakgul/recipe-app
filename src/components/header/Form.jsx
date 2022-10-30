@@ -8,6 +8,7 @@ const Form = () => {
   const [query, setQuery] = useState("");
   const [meal, setMeal] = useState("");
   const [data, setData] = useState([]);
+
   // console.log("query:", query);
   // console.log("meal:", meal);
 
@@ -41,7 +42,7 @@ const Form = () => {
         value={meal}
         onChange={(e) => setMeal(e.target.value)}
       >
-        <Options value="" selected disabled>
+        <Options value="" defaultChecked disabled>
           Select
         </Options>
         <Options value="breakfast">Breakfast</Options>
