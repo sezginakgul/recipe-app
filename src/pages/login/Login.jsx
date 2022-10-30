@@ -14,7 +14,7 @@ function Login() {
   // console.log(formData);
 
   const localStorageKey = {
-    username: "test@mail.com",
+    username: "mail@mail.com",
     password: "123",
   };
   localStorage.setItem("LoginAuthor", JSON.stringify(localStorageKey));
@@ -38,7 +38,7 @@ function Login() {
       setTimeout(() => {
         setLoading(false);
         navigate("/home");
-      }, 4500);
+      }, 4300);
     } else {
       alert("Sorry :( Username or Password is wrong!");
     }
