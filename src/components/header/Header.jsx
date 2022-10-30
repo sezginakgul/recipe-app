@@ -1,5 +1,4 @@
 import React from "react";
-import RecipeCard from "../../pages/home/RecipeCard";
 import Form from "./Form";
 import { HeaderStyle } from "./Header.styled";
 
