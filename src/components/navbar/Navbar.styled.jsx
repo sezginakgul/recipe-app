@@ -28,6 +28,26 @@ export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 0 1rem 0 3rem;
   font-size: 1.5rem;
+
+  @media (max-width: ${({ theme }) => theme.responsive.lg}) {
+    font-size: 1.25rem;
+    margin: 0 0.7rem;
+  }
+  @media (max-width: ${({ theme }) => theme.responsive.sm}) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    margin: 0.8rem;
+  }
+`;
+
+export const NavbarLinkLogin = styled(Link)`
+  color: red;
+  text-decoration: none;
+  margin: 0 1rem 0 3rem;
+  font-size: 1.5rem;
+
   @media (max-width: ${({ theme }) => theme.responsive.lg}) {
     font-size: 1.25rem;
     margin: 0 0.7rem;

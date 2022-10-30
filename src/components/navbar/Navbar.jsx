@@ -1,5 +1,9 @@
 import React from "react";
-import NavbarStyle, { NavbarImg, NavbarLink } from "./Navbar.styled";
+import NavbarStyle, {
+  NavbarImg,
+  NavbarLink,
+  NavbarLinkLogin,
+} from "./Navbar.styled";
 import { useNavigate } from "react-router-dom";
 import FoodTruck from "../../assets/food-truck.gif";
 
@@ -19,7 +23,9 @@ const Navbar = () => {
         <NavbarLink to="/home">HOME</NavbarLink>
         <NavbarLink to="/about">ABOUT</NavbarLink>
         <NavbarLink to="/contact">CONTACT</NavbarLink>
-        <NavbarLink to="/"> LOGOUT</NavbarLink>
+        <NavbarLinkLogin className="logout" to="/">
+          LOGOUT
+        </NavbarLinkLogin>
       </div>
     </NavbarStyle>
   );

@@ -8,15 +8,15 @@ const Form = () => {
   const [query, setQuery] = useState("");
   const [meal, setMeal] = useState("");
   const [data, setData] = useState([]);
-  console.log("query:", query);
-  console.log("meal:", meal);
+  // console.log("query:", query);
+  // console.log("meal:", meal);
 
   const getFoods = async () => {
     const url = `https://api.edamam.com/search?q=${query}&app_id=29e1b965&app_key=d36f57f6f46ee8cfaffc07daa4a40dad&mealType=${meal}`;
     const { data } = await axios(url);
     setData(data.hits);
   };
-  console.log("data", data);
+  // console.log("data", data);
   // getFoods();
 
   const search = () => {

@@ -34,7 +34,7 @@ function Login() {
         username: "",
         password: "",
       });
-      console.log(formData);
+      // console.log(formData);
       setTimeout(() => {
         setLoading(false);
         navigate("/home");
