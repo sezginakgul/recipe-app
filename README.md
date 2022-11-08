@@ -2,6 +2,12 @@
 
 - Live: [Live Website](https://reactjs-recipe-appv1.vercel.app/)
 
+## Login
+- Email: mail@mail.com
+- Password: 123
+
+
+
 ## Table of contents
 
 - [Overview](#overview)
