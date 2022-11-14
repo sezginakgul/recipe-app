@@ -19,7 +19,7 @@
 ## Overview
 
 ### Description
-This project aims to view recipes and content using the Edamam Recipe Search Api. There is a search feature according to the entered word.The application is started with the login page. The login page background is  using a random image. On the login page, mail and password are stored in localstorage by default. It checks the password from localstorage with the e-mail entered, if it is correct, it redirects to the home page, and if it is wrong, it gives an alert.  This project uses "<i>styled-components</i>".
+This project aims to view recipes and content using the Edamam Recipe Search Api. There is a search feature according to the entered word.The application is started with the login page. The login page background is  using a random image. On the login page, e-mail and password are stored in localstorage by default. It checks the password from localstorage with the e-mail entered, if it is correct, it redirects to the home page, and if it is wrong, it gives an alert.  This project uses "<i>styled-components</i>".
 
 
 
